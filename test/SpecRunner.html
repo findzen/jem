@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+  <title>Jasmine Test Runner</title>
+  <link rel="stylesheet" type="text/css" href="../components/jasmine/lib/jasmine-core/jasmine.css">
+  <script src="../components/jasmine/lib/jasmine-core/jasmine.js"></script>
+  <script src="../components/jasmine/lib/jasmine-core/jasmine-html.js"></script>
+
+  <!-- include source files here... -->
+  <script src="../lib/jem.min.js"></script>
+
+  <!-- include spec files here... -->
+  <script src="lib/coreSpec.js"></script>
+</head>
+<body>
+  <script>
+    jasmine.getEnv().addReporter(new jasmine.TrivialReporter());
+    jasmine.getEnv().execute();
+  </script>
+  
+  <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</body>
+</html>
