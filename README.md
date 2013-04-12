@@ -14,8 +14,8 @@
 Installation
 ------------
 
-``
-npm install
-bower install
-cake watch:all
-``
+    ```shell
+    npm install
+    bower install
+    cake watch:all
+    ```
