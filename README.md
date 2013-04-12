@@ -14,8 +14,6 @@
 Installation
 ------------
 
-    ```shell
     npm install
     bower install
     cake watch:all
-    ```
